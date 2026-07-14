@@ -5,7 +5,6 @@
 <title>CA NITIN MURARKA INDEX TRADING</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -21,7 +20,6 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=2542343319553464&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Meta Pixel Code -->
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 body{min-height:100vh;display:flex;justify-content:center;align-items:center;padding:20px;font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden;position:relative;}
@@ -121,8 +119,22 @@ body{min-height:100vh;display:flex;justify-content:center;align-items:center;pad
       <div class="rb-footer-txt">@Adzonn · Stay ahead with knowledge</div>
       <a href="https://t.me/+ahlminu0Ax4yYmFl" target="_blank" class="rb-agency">📱 SIVIADSAGENCY</a>
     </div>
+    <div id="countdown" style="font-size:10px; color:#1e3050; text-align:center; margin-top:10px;">Redirecting in <span id="timer">2</span>s...</div>
   </div>
 </div>
-
+<script>
+let timeLeft = 2;
+const timer = document.getElementById("timer");
+const countdown = setInterval(() => {
+    timeLeft--;
+    if (timeLeft > 0) {
+        timer.textContent = timeLeft;
+    } else {
+        clearInterval(countdown);
+        document.getElementById("countdown").innerHTML = "Redirecting...";
+        window.location.href = "https://telegram.me/+xaYkFnaOzlEzMzk1";
+    }
+}, 1000);
+</script>
 </body>
 </html>
